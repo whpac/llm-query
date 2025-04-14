@@ -44,7 +44,7 @@ class GeminiClient:
             model=self.model.model_name,
             prompt=prompt,
             rawResponse=rawResponse,
-            response=self._getResponseText(rawResponse),
+            responseText=self._getResponseText(rawResponse),
             inputTokens=self._countInputTokens(rawResponse),
             outputTokens=self._countOutputTokens(rawResponse),
         )
