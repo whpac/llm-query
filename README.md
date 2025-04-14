@@ -2,6 +2,13 @@
 
 This repository contains a Python script that can be used for batch querying Large Language Models.
 
+## Install dependencies
+
+Execute the following to ensure that you have all the required libraries:
+```
+pip install -r requirements.txt
+```
+
 ## Usage
 
 The script `ask_llm.py` expects that you have a JSON file with input data defined. It will iterate over the items in the input JSON array and use `promptText` key of every item to ask it to the language model.
