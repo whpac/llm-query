@@ -1,0 +1,6 @@
+{
+    "model": "gemini:2.0-flash-lite",
+    "delay": 5,
+    "limit": 100,
+    "dryRun": true
+}

@@ -1,0 +1,4 @@
+{
+    "$extends": "example-base.json",
+    "limit": 1
+}

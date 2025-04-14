@@ -1,0 +1,38 @@
+[
+    {
+        "id": "optional id",
+        "data": {
+            "any": "data here",
+            "this object": "is not processed"
+        },
+        "promptText": "a prompt text here {{#include:/home/user/test.txt}}",
+        "result": {
+            "success": true,
+            "dump": "full-path/to/llm-optional id-2025-04-09T18.40.36.json"
+        }
+    },
+    {
+        "id": "entry_00002",
+        "data": {
+            "any": "data here",
+            "this object": "is not processed"
+        },
+        "promptText": "a prompt text here",
+        "result": {
+            "success": true,
+            "dump": "full-path/to/llm-entry_00002-2025-04-09T18.40.41.json"
+        }
+    },
+    {
+        "id": "entry_00003",
+        "data": {
+            "any": "data here",
+            "this object": "is not processed"
+        },
+        "promptText": "a prompt text here",
+        "result": {
+            "success": true,
+            "dump": "full-path/to/llm-entry_00003-2025-04-09T18.40.46.json"
+        }
+    }
+]

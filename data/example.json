@@ -1,0 +1,24 @@
+[
+    {
+        "id": "optional id",
+        "data": {
+            "any": "data here",
+            "this object": "is not processed"
+        },
+        "promptText": "a prompt text here {{#include:/home/user/test.txt}}"
+    },
+    {
+        "data": {
+            "any": "data here",
+            "this object": "is not processed"
+        },
+        "promptText": "a prompt text here"
+    },
+    {
+        "data": {
+            "any": "data here",
+            "this object": "is not processed"
+        },
+        "promptText": "a prompt text here"
+    }
+]
